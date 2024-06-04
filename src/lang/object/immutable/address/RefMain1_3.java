@@ -12,7 +12,6 @@ public class RefMain1_3 {
         change(b, "부산");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
-
     }
 
     private static void change(Address address, String changeAddress) {
