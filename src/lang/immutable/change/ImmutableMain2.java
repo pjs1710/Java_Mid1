@@ -1,4 +1,4 @@
-package lang.object.immutable.change;
+package lang.immutable.change;
 
 public class ImmutableMain2 {
 
