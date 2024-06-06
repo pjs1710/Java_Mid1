@@ -3,8 +3,9 @@ package lang.wrapper;
 public class WrapperClassMain {
 
     public static void main(String[] args) {
+        // 박싱
         Integer newInteger = new Integer(10); // 미래에 삭제 예정, 대신에 valueOf()를 사용
-        Integer integerObj = Integer.valueOf(10); // -128 ~ 127 자주 사용하는 숫자 값 재사용, 불변
+        Integer integerObj = Integer.valueOf(10); // -128 ~ 127 자주 사용하는 숫자 값 재사용, 불변, 문자열 풀과 비슷하게 자주 사용하는 숫자 생성해두고 재사용
         Long longObj = Long.valueOf(100);
         Double doubleObj = Double.valueOf(10.5);
 
@@ -13,6 +14,7 @@ public class WrapperClassMain {
         System.out.println("longObj = " + longObj);
         System.out.println("doubleObj = " + doubleObj);
 
+        // 언박싱
         System.out.println("내부 값 읽기");
         int intValue = integerObj.intValue();
         System.out.println("intValue = " + intValue);
