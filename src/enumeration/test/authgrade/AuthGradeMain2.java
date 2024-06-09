@@ -1,4 +1,4 @@
-package enumeration.test;
+package enumeration.test.authgrade;
 
 import java.util.Scanner;
 

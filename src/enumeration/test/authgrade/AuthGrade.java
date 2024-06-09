@@ -1,4 +1,4 @@
-package enumeration.test;
+package enumeration.test.authgrade;
 
 public enum AuthGrade {
     GUEST(1,"손님"),
