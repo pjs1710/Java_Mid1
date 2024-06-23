@@ -19,4 +19,5 @@ public class InnerOuter {
             System.out.println(outClassValue);
         }
     }
+
 }
