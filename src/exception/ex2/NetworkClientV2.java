@@ -24,6 +24,8 @@ public class NetworkClientV2 {
 
         if (sendError) {
             throw new NetworkClientExceptionV2("sendError", address + " 서버에 데이터 전송 실패 : " + data);
+            // 중간에 다른 예외가 발생했다고 가정
+            // throw new RuntimeException("ex");
         }
         // 전송 성공
         System.out.println(address + " 서버에 데이터 전송 :" + data);
