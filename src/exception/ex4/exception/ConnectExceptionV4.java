@@ -1,10 +1,10 @@
-package exception.ex3.exception;
+package exception.ex4.exception;
 
-public class ConnectExceptionV3 extends NetworkClientExceptionV3 {
+public class ConnectExceptionV4 extends NetworkClientExceptionV4 {
 
     private final String address;
 
-    public ConnectExceptionV3(String address, String message) {
+    public ConnectExceptionV4(String address, String message) {
         super(message);
         this.address = address;
     }
